@@ -1,10 +1,10 @@
-Experimentation on n Puzzle
-===========================
+#Experimentation on n Puzzle
+
 
 Some experimentations about finding best paths for n Puzzle with best evaluation function.
 
-Parameters
-----------
+##Parameters
+
 You can play with following parameters :
 
 ```java
@@ -14,5 +14,4 @@ You can play with following parameters :
     public static int gameCount = 1; /* The number of game you want to play. Useful to do statistics with AI. 
         i.e.: Sets it to 10 and it will give you the average score game for 10 games. */
 ```
-
 

@@ -8,8 +8,8 @@ import java.util.ArrayList;
  */
 public class Cube {
 
-  static int SIZE = 3;
-  int[][] grid = new int[SIZE][SIZE]; 
+  static int SIZE;
+  int[][] grid; 
   // int[][] grid = {{0,8,2},{3,4,5},{6,7,1}};
   // int[][] grid = {{5,0,6},{8,3,7},{1,2,4}};
   // int[][] grid = {{4,7,0},{5,2,8},{3,1,6}};
@@ -30,6 +30,7 @@ public class Cube {
    */
   public Cube(int size) {
     SIZE = size;
+    grid = new int[SIZE][SIZE];
   }
   
   /**
@@ -37,6 +38,8 @@ public class Cube {
    * @param grid Grid for the cube.
    */
   public Cube(int[][] grid) {
+    SIZE = grid.length;
+    this.grid = new int[SIZE][SIZE];
     for (int i = 0; i < grid.length; i++) {
       for (int j = 0; j < grid[i].length; j++) {
         this.grid[i][j] = grid[i][j];

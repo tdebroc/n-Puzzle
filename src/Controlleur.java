@@ -13,8 +13,8 @@ public class Controlleur {
   public static boolean printStat = true;
   public static int gameCount = 1;
   public static int currentGameIndex = 0;
-  private static int maxDepth = 21;
-  private static int size = 3;
+  private static int maxDepth = 15;
+  private static int size = 4;
   
   
   /**
@@ -48,7 +48,7 @@ public class Controlleur {
     scoreTotal += scoreGame;
     if (printGame || printStat)
       System.out.println("Congrats ! Your score is : " + scoreGame +
-          " score total" + scoreTotal +" " + scoreTotal / currentGameIndex);
+          " score total" + scoreTotal +" current mean : " + scoreTotal / currentGameIndex);
     
   }
   

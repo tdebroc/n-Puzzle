@@ -13,8 +13,8 @@ public class Controlleur {
   public static boolean printStat = true;
   public static int gameCount = 1;
   public static int currentGameIndex = 0;
-  private static int maxDepth = 15;
-  private static int size = 4;
+  private static int maxDepth = 20;
+  private static int size = 3;
   
   
   /**

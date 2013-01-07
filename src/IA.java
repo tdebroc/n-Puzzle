@@ -101,7 +101,7 @@ public class IA {
       //System.out.format("%,8d%n", n);
     System.out.format("Min score : %,8d%n current : %,8d%n ",
         minScore.getScore() == Long.MAX_VALUE ? 
-            ) ; minScore.getScore(), cube.getScore());
+            0 : minScore.getScore(), cube.getScore());
   }
   
   /**
